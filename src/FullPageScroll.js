@@ -21,7 +21,7 @@ const FullPageScroll = () => {
           </FullpageSection>
           
           <FullpageSection style={SectionStyle}>
-            <h1>Section 2</h1>
+            <h1>Section 6</h1>
           </FullpageSection>
           
           <FullpageSection style={SectionStyle}>
