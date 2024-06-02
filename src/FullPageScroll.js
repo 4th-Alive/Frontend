@@ -79,7 +79,7 @@ const FullPageScroll = () => {
               <TypingTitle></TypingTitle>
             </div>
             <div className="SectionBox_2">
-              <h3 className="MiniTitle">소통을 합시다</h3>
+              <h3 className="MiniTitle">우리 가족은 서로에게 이해와 지지를 줄 수 있는 곳이야. 너의 이야기를 듣고 싶어</h3>
             </div>
           </div>
         </FullpageSection>
