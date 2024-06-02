@@ -1,6 +1,89 @@
+@font-face {
+  font-family: 'DX빨간우체통Bold';
+  src: url('./DXRMbxB-KSCpc-EUC-H.woff') format("woff");
+}
+
 .App {
   text-align: center;
 }
+
+.nav {
+  height: 80px;
+}
+
+.Container-nav {
+  width: 90%;
+}
+
+.left-menu {
+  width: 30%;
+}
+
+.right-first_menu {
+  padding: 10px;
+}
+
+.right-second_menu {
+  
+  padding: 10px;
+}
+
+/*nav-bar css*/
+.MainLogo {
+  margin-right: 12px;
+  height: 40px;
+}
+/**?
+
+/*Section_1 css*/
+.Section_fix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SectionBox_1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.SectionBox_1 h1 {
+  padding: 10px;
+  text-align: center;
+  font-family: 'DX빨간우체통Bold';
+}
+
+.SectionBox_2 {
+  display: flex;
+  justify-content: center;
+}
+
+#Qmark_1 {
+  margin-right: 580px;
+  font-size: 33pt;
+}
+
+#Qmark_2 {
+  font-size: 33pt;
+  margin-left: 580px;
+}
+
+.MiniTitle {
+  text-align: center;
+  font-size: 16pt;
+}
+
+.typingTitle {
+  padding: 4px;
+}
+
+.Section_fix {
+  display: flex;
+  align-items: center;
+}
+/**/
 
 .App-logo {
   height: 40vmin;
