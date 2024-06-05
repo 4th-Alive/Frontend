@@ -1,0 +1,27 @@
+.Section2 {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    font-family: 'NotoSansKR';
+}
+
+.typingTitle {
+    font-size: 55px;
+}
+
+.TopSection_2 {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.BottomSection_2 {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.ImgSection_2 img {
+    width: 400px;
+}

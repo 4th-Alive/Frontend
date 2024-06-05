@@ -7,8 +7,9 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function App() {
   return (
+    /*상단바 생각 중*/
     <div id="App">
-      <Navbar bg="dark" data-bs-theme="dark" className="nav">
+      {/* <Navbar bg="dark" data-bs-theme="dark" className="nav">
         <Container className="Container-nav">
           <Navbar.Brand href="#home" className="left-menu">
           <img src={process.env.PUBLIC_URL + '/AppLogo.png'} className="MainLogo"></img>
@@ -19,7 +20,7 @@ function App() {
             <Nav.Link href="#pricing" className="right-second_menu">게스트 로그인</Nav.Link>
           </Nav>
         </Container>
-      </Navbar>
+      </Navbar> */}
       <FullPageScroll />
     </div>
   );
