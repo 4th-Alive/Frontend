@@ -1,6 +1,8 @@
 .Section2 {
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
+    height: 80vh;
+    justify-content: center;
     align-items: center;
     gap: 60px;
     font-family: 'NotoSansKR';
@@ -15,6 +17,10 @@
     flex-direction: column;
     font-weight: 500;
     margin-right: 20px;
+}
+
+.First {
+    font-size: 50px;
 }
 
 .BottomSection_2 {

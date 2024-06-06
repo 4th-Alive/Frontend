@@ -5,8 +5,10 @@ const Section2 = () => {
   return (
     <div className="Section2">
       <div className="TopSection_2">
-        <span>부모님에게 전하지 못했던 말</span>
+        <div className="First">
+        <span>부모님에게 전하지 못했던 말</span><br></br>
         <span><strong>Q & A</strong>로 물어봐요</span>
+        </div>
         <div className="BottomSection_2">
           <span>• 제가 가장 자랑스러웠던 순간은 언제였나요?</span>
           <br />
