@@ -67,6 +67,10 @@ const Section1 = () => {
                 <h3 className="MiniTitle">우리 가족은 서로에게 이해와 지지를 줄 수 있는 곳이야. 너의 이야기를 듣고 싶어</h3>
             </div>
 
+            <div className="AppIntro">
+                <span className="AppMain fade-in-up">가족의 이야기가 시작되는 곳,</span>
+                <span className="AppMain fade-in-up"><strong className="AppName">함께해요 : with</strong>를 다운받아요.</span>
+            </div>
             <div className="AppDownload">
                 <img src={process.env.PUBLIC_URL + '/appstore.svg'} className="MainLogo"></img>
                 <img src={process.env.PUBLIC_URL + '/googleplay.svg'} className="MainLogo"></img>

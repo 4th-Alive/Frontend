@@ -1,14 +1,43 @@
+@keyframes fadeInUp { /* 아래에서 위로 올라오도록 설정 */
+  from {
+    opacity: 0;
+    transform: translateY(20px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceUpDown { /* 위로 튀는 정도를 조절 */
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); 
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+.fade-in-up {
+  opacity: 0;
+  animation: fadeInUp 3s forwards; /* 2초 동안 서서히 나타나도록 설정 */
+}
+
+
 #Section1 {
-  margin-top: 80px;
+  margin-top: 7%;
   height: 70vh;
   position: fixed; /* 요소를 화면에 고정 */
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000; /* 다른 요소들 위에 오도록 설정 */
-  background-color: white; /* 백그라운드 색상을 설정하여 다른 컨텐츠와 분리 */
+  background-color: white;
 }
-
 
 .SectionBox1 {
   display: flex;
@@ -55,13 +84,45 @@
   font-family: 'NotoSansKR';
 }
 
+.AppMain {
+  font-family: 'NotoSansKR';
+  font-size: 35pt;
+}
+
 .typingTitle {
   padding: 8px;
+}
+
+.AppImg {
+  height: 35pt;
+  margin-left: 5px;
+}
+
+.AppIntro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 7%;
 }
 
 .AppDownload {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 12px;
+}
+
+.MainLogo {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.MainLogo:hover {
+  animation: bounceUpDown 0.4s;
+}
+
+.AppName {
+  font-family: '경기천년바탕_Bold';
+  color: #F1C40F;
 }
