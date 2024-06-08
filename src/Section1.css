@@ -30,7 +30,7 @@
 
 #Section1 {
   margin-top: 7%;
-  height: 70vh;
+  height: 100vh;
   position: fixed; /* 요소를 화면에 고정 */
   top: 0;
   left: 0;
@@ -84,11 +84,6 @@
   font-family: 'NotoSansKR';
 }
 
-.AppMain {
-  font-family: 'NotoSansKR';
-  font-size: 35pt;
-}
-
 .typingTitle {
   padding: 8px;
 }
@@ -122,7 +117,14 @@
   animation: bounceUpDown 0.4s;
 }
 
+.AppMain {
+  font-family: 'NotoSansKR';
+  font-size: 35pt;
+  display: flex;
+}
+
 .AppName {
-  font-family: '경기천년바탕_Bold';
-  color: #F1C40F;
+  margin: 0;
+  font-family: 'NotoSansKR';
+  color: #f98f75;
 }

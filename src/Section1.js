@@ -69,7 +69,7 @@ const Section1 = () => {
 
             <div className="AppIntro">
                 <span className="AppMain fade-in-up">가족의 이야기가 시작되는 곳,</span>
-                <span className="AppMain fade-in-up"><strong className="AppName">함께해요 : with</strong>를 다운받아요.</span>
+                <span className="AppMain fade-in-up"><p className="AppName">함께해요 : with</p>를 다운받아요.</span>
             </div>
             <div className="AppDownload">
                 <img src={process.env.PUBLIC_URL + '/appstore.svg'} className="MainLogo"></img>

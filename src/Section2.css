@@ -1,11 +1,28 @@
+@keyframes fadeInUp { /* 아래에서 위로 올라오도록 설정 */
+    from {
+      opacity: 0;
+      transform: translateY(20px); 
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in-up_2 {
+    opacity: 0;
+    animation: fadeInUp 2s forwards; /* 2초 동안 서서히 나타나도록 설정 */
+  }
+
 .Section2 {
     display: flex;
     flex-direction: row;
-    height: 80vh;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 100px;
     font-family: 'NotoSansKR';
+    height: 100vh; /* 70vh에서 100vh로 수정 */
+    width: 100%; /* 부모의 너비에 맞춤 */
 }
 
 .typingTitle {
@@ -28,6 +45,17 @@
     font-size: 20px;
 }
 
-.ImgSection_2 img {
+.ImgSection2_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.ImgSection2_1 img {
+    width: 50%;
+}
+
+.ImgSection2_2 img {
     width: 400px;
 }
