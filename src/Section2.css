@@ -1,4 +1,22 @@
-@keyframes fadeInUp { /* 아래에서 위로 올라오도록 설정 */
+/*모바일 사이즈*/
+@media (max-width: 768px) {
+    .Section2 {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .TopSection_2, .BottomSection_2 {
+      margin: 20px 0;
+    }
+  
+    .ImgSection2_1 img, .ImgSection2_2 img {
+      width: 80%;
+    }
+  }
+
+
+/* 아래에서 위로 올라오는 애니메이션 */
+@keyframes fadeInUp { 
     from {
       opacity: 0;
       transform: translateY(20px); 
