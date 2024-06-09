@@ -31,7 +31,7 @@
 #Section1 {
   margin-top: 7%;
   height: 100vh;
-  position: fixed; /* 요소를 화면에 고정 */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
