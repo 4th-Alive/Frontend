@@ -40,7 +40,7 @@
     gap: 100px;
     font-family: 'NotoSansKR';
     height: 100vh; /* 70vh에서 100vh로 수정 */
-    width: 100%; /* 부모의 너비에 맞춤 */
+    width: 70%; /* 부모의 너비에 맞춤 */
 }
 
 .typingTitle {
@@ -55,7 +55,7 @@
 }
 
 .First {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .BottomSection_2 {
@@ -70,10 +70,21 @@
     margin-top: 5%;
 }
 
+.ImgSection2_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .ImgSection2_1 img {
-    width: 50%;
+    width: 330px;
 }
 
 .ImgSection2_2 img {
-    width: 400px;
+    width: 350px;
+}
+
+.Function1 {
+  color: #f98f75;
 }
