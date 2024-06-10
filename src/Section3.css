@@ -1,20 +1,45 @@
-.Ssection3 {
-    display: flex;
-    justify-content: center;
-}
+/* 아래에서 위로 올라오는 애니메이션 */
+@keyframes fadeInUp { 
+    from {
+      opacity: 0;
+      transform: translateY(20px); 
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .fade-in-up_3 {
+    opacity: 0;
+    animation: fadeInUp 2s forwards; /* 2초 동안 서서히 나타나도록 설정 */
+  }
 
 .Section3-Text {
     font-family: 'NotoSansKR';
-    font-size: 25pt;
     text-align: center;
 }
 
-.Section3_Img {
+.Section3-MainText {
+    font-size: 35pt;
+    font-weight: 500;
+}
+
+.Section3-MainText strong {
+    color: #f1c40f;
+}
+
+.Section3-SubText {
+    margin-top: 3%;
+    font-size: 16pt;
+}
+
+.Section3-Img {
     display: flex;
     justify-content: center;
     margin-top: 5%;
 }
 
-.Section3_Img img {
-    width: 20vw;
+.Section3-Img img {
+    width: 16vw;
 }
