@@ -13,6 +13,21 @@ const FullPageScroll = () => {
     alignItems: 'center',
   }
 
+  const SectionStyle2 = {
+    // height: '100vh',
+    // width: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: '0',
+  }
+
+  const SectionStyle3 = {
+    display: 'flex',
+    justifyContent: 'center',
+    paddingTop: '5%',
+  }
+
   return (
     <Fullpage>
 
@@ -23,11 +38,11 @@ const FullPageScroll = () => {
           <Section1></Section1>
         </FullpageSection>
 
-        <FullpageSection style={SectionStyle}>
+        <FullpageSection style={SectionStyle2}>
           <Section2></Section2>
         </FullpageSection>
 
-        <FullpageSection style={SectionStyle}>
+        <FullpageSection style={SectionStyle3}>
           <Section3></Section3>
         </FullpageSection>
 

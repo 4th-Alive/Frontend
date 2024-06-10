@@ -78,13 +78,17 @@
 }
 
 .ImgSection2_1 img {
-    width: 330px;
+  filter: drop-shadow(10px 6px 6px #c3c3c3);
+  border-radius: 20px;
+  width: 330px;
 }
 
 .ImgSection2_2 img {
-    width: 350px;
+  filter: drop-shadow(10px 6px 6px #c3c3c3);
+  border-radius: 20px;
+  width: 350px;
 }
 
 .Function1 {
-  color: #f98f75;
+  color: #f1c40f;
 }
