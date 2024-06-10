@@ -6,26 +6,44 @@ const Section2 = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.1 }
-    );
+    const handleSection1Complete = () => {
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            setIsVisible(true);
+            observer.disconnect();
+          }
+        },
+        { threshold: 0.1 }
+      );
 
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => {
       if (sectionRef.current) {
-        observer.unobserve(sectionRef.current);
+        observer.observe(sectionRef.current);
       }
     };
+
+    window.addEventListener("section1Complete", handleSection1Complete);
+
+    return () => {
+      window.removeEventListener("section1Complete", handleSection1Complete);
+    };
   }, []);
+
+  useEffect(() => {
+    if (isVisible) {
+      const handleAnimationEnd = () => {
+        const event = new Event("section2Complete");
+        window.dispatchEvent(event);
+      };
+
+      const sectionElement = sectionRef.current;
+      sectionElement.addEventListener('animationend', handleAnimationEnd);
+
+      return () => {
+        sectionElement.removeEventListener('animationend', handleAnimationEnd);
+      };
+    }
+  }, [isVisible]);
 
   return (
     <div ref={sectionRef} className={`Section2 ${isVisible ? 'fade-in-up_2' : ''}`}>

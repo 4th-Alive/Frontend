@@ -52,14 +52,25 @@ const TypingTitle = () => {
     );
 };
 
-
 const Section1 = () => {
+    useEffect(() => {
+        const handleAnimationComplete = () => {
+            const event = new Event("section1Complete");
+            window.dispatchEvent(event);
+        };
+        window.addEventListener("animationComplete", handleAnimationComplete);
+
+        return () => {
+            window.removeEventListener("animationComplete", handleAnimationComplete);
+        };
+    }, []);
+
     return (
         <div id="Section1">
             <div className="SectionBox1">
                 <span id="Qmark_1">“</span>
                 <div className="TitleBox">
-                    <TypingTitle></TypingTitle>
+                    <TypingTitle />
                 </div>
                 <span id="Qmark_2">”</span>
             </div>
@@ -72,11 +83,11 @@ const Section1 = () => {
                 <span className="AppMain fade-in-up"><p className="AppName">함께해요 : with</p>를 다운받아요.</span>
             </div>
             <div className="AppDownload fade-in-up">
-                <img src={process.env.PUBLIC_URL + '/appstore.svg'} className="MainLogo"></img>
-                <img src={process.env.PUBLIC_URL + '/googleplay.svg'} className="MainLogo"></img>
+                <img src={process.env.PUBLIC_URL + '/appstore.svg'} className="MainLogo" alt="App Store" />
+                <img src={process.env.PUBLIC_URL + '/googleplay.svg'} className="MainLogo" alt="Google Play" />
             </div>
         </div>
     );
-}
+};
 
 export default Section1;
