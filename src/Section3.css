@@ -12,7 +12,7 @@
 
   .fade-in-up_3 {
     opacity: 0;
-    animation: fadeInUp 2.5s forwards; /* 2초 동안 서서히 나타나도록 설정 */
+    animation: fadeInUp 3s forwards; /* 2초 동안 서서히 나타나도록 설정 */
   }
 
 .Section3-Text {

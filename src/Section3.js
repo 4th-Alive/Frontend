@@ -16,6 +16,22 @@ const Section3 = () => {
     };
   }, []);
 
+  useEffect(() => {
+    if (isVisible) {
+      const handleAnimationEnd = () => {
+        const event = new Event("section3Complete");
+        window.dispatchEvent(event);
+      };
+
+      const sectionElement = document.querySelector('.Section3');
+      sectionElement.addEventListener('animationend', handleAnimationEnd);
+
+      return () => {
+        sectionElement.removeEventListener('animationend', handleAnimationEnd);
+      };
+    }
+  }, [isVisible]);
+
   return (
     <div className={`Section3 ${isVisible ? 'fade-in-up_3' : ''}`}>
       <div className="Section3-Top_SubTitle">
