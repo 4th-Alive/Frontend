@@ -7,9 +7,11 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function App() {
   return (
+
     <div id="App">
       <FullPageScroll />
     </div>
+    
   );
 }
 
