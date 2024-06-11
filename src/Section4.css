@@ -62,3 +62,37 @@
     border: 1px solid #e0e0e0;
     border-radius: 20px;
 }
+
+.Section4-Footer_Box {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 19%;
+    gap: 8px;
+    font-family: 'NotoSansKR';
+    font-weight: 500;
+    /* border-top: 1px solid gray; */
+    padding: 20px;
+}
+
+.Section4-Footer_1 {
+    font-size: 17px;
+    color: #676767;
+    display: flex;
+    gap: 20px;
+}
+
+.Section4-Footer_2 {
+    margin-top: 15px;
+    color: #a0a0a0;
+    display: flex; 
+    gap: 10px;
+}
+
+.Section4-Footer_3 {
+    margin-top: 5px;
+    color: #a0a0a0;
+    font-size: 14px;
+}
