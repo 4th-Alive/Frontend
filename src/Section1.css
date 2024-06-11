@@ -113,6 +113,7 @@
 .MainLogo {
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
 }
 
 .MainLogo:hover {

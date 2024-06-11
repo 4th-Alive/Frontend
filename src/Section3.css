@@ -41,5 +41,7 @@
 }
 
 .Section3-Img img {
+  filter: drop-shadow(10px 6px 6px #c3c3c3);
     width: 16vw;
+    border-radius: 20px;
 }
