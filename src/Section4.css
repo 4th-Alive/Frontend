@@ -1,0 +1,47 @@
+.Section4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.Section4-TopText {
+    font-size: 35pt;
+    font-weight: 500;
+}
+
+.Section4-SubText {
+    text-align: center;
+    font-size: 22pt;
+    margin-top: 4%;
+    font-weight: 400;
+}
+
+.Section4-Img {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    gap: 15px;
+}
+
+.Section4-Img img {
+    width: 170px;
+}
+
+.Section4-App_Store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 8vh;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+.Section4-Google_Play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 8vh;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+}

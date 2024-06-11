@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Section1 from "./Section1";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
+import Section4 from "./Section4";
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from "@ap.cx/react-fullpage";
 
 const FullPageScroll = () => {
@@ -11,6 +12,7 @@ const FullPageScroll = () => {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    // background: '#fafafa',
   }
 
   const SectionStyle2 = {
@@ -26,6 +28,15 @@ const FullPageScroll = () => {
     display: 'flex',
     justifyContent: 'center',
     paddingTop: '5%',
+  }
+
+  const SectionStyle4 = {
+    height: '100vh',
+    // width: '100%',
+    display: 'flex',
+    justifyContent: 'center',
+    paddingTop: '12%',
+    background: '#fafafa',
   }
 
   return (
@@ -46,8 +57,8 @@ const FullPageScroll = () => {
           <Section3></Section3>
         </FullpageSection>
 
-        <FullpageSection style={SectionStyle}>
-          <h1>Section 4</h1>
+        <FullpageSection style={SectionStyle4}>
+          <Section4></Section4>
         </FullpageSection>
 
       </FullPageSections>
