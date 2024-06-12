@@ -36,7 +36,6 @@ const FullPageScroll = () => {
     // width: '100%',
     display: 'flex',
     justifyContent: 'center',
-    paddingTop: '12%',
     background: '#fafafa',
   }
 

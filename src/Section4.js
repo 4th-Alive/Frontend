@@ -54,9 +54,9 @@ const Section4 = () => {
                         <span>|</span>
                         <span>팀원 : 백승준</span>
                         <span>|</span>
-                        <span>팀장 : 최영준</span>
+                        <span>팀원 : 최영준</span>
                         <span>|</span>
-                        <span>팀장 : 이주환</span>
+                        <span>팀원 : 이주환</span>
                     </div>
                     <div className="Section4-Footer_3">
                         <span>Copyright © DEU Corp. All rights reserved.</span>
