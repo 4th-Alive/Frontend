@@ -63,6 +63,7 @@
 }
 
 .Section4-App_Store {
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,6 +74,7 @@
 }
 
 .Section4-Google_Play {
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
