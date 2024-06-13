@@ -83,7 +83,7 @@ export default function Features() {
     const selectedFeature = items[selectedItemIndex];
 
     return (
-        <Container id="features" sx={{ py: { xs: 8, sm: 16 } }}>
+        <Container id="features" sx={{ py: { xs: 8, sm: 16 } }} style={{ marginTop: '50px' }}>
             <Grid container spacing={6}>
                 <Grid item xs={12} md={6}>
                     <div>
@@ -244,13 +244,21 @@ export default function Features() {
                                 <div style={{ fontFamily: '경기천년바탕_BOLD' }}>
                                     <h2 style={{ marginTop: '10px' }}>오늘의 일일미션</h2>
                                     <Divider />
-                                    <Checkbox style={fontStyle} onChange={onChange}>변신 1회 하기</Checkbox>
+                                    <Checkbox style={fontStyle} onChange={onChange}>
+                                        변신 1회 하기
+                                    </Checkbox>
                                     <br />
-                                    <Checkbox style={fontStyle} onChange={onChange}>체력 회복 포션 사용하기</Checkbox>
+                                    <Checkbox style={fontStyle} onChange={onChange}>
+                                        체력 회복 포션 사용하기
+                                    </Checkbox>
                                     <br />
-                                    <Checkbox style={fontStyle} onChange={onChange}>장비 강화 성공하기</Checkbox>
+                                    <Checkbox style={fontStyle} onChange={onChange}>
+                                        장비 강화 성공하기
+                                    </Checkbox>
                                     <br />
-                                    <Checkbox style={fontStyle} onChange={onChange}>캐릭터 레벨 올리기</Checkbox>
+                                    <Checkbox style={fontStyle} onChange={onChange}>
+                                        캐릭터 레벨 올리기
+                                    </Checkbox>
                                     <br />
                                 </div>
                             )}
