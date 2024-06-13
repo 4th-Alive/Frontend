@@ -224,7 +224,7 @@ export default function Features() {
                                         style={{ marginBottom: '20px' }}
                                     />
 
-                                    <TextArea rows={15} style={{ marginBottom: '10px' }} />
+                                    <TextArea rows={15} style={{ marginBottom: '10px', resize: 'none' }} />
 
                                     <Button variant="outlined" style={{ float: 'right' }}>
                                         작성하기
@@ -237,7 +237,10 @@ export default function Features() {
                                     <Divider />
                                     <h6>Q. 가족의 사랑을 느낀 적이 있나요? 있다면 언제인가요?</h6>
                                     <p>A.</p>
-                                    <TextArea rows={5} />
+                                    <TextArea rows={5} style={{ marginBottom: '10px', resize: 'none' }} />
+                                    <Button variant="outlined" style={{ float: 'right' }}>
+                                        작성하기
+                                    </Button>
                                 </div>
                             )}
                             {isMissionSelected && (
