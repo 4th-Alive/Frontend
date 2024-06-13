@@ -6,7 +6,8 @@ import Section4 from "./Section4";
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from "@ap.cx/react-fullpage";
 
 const FullPageScroll = () => {
-  const SectionStyle = {
+
+  const SectionStyle1 = {
     // height: '100vh',
     // width: '100%',
     display: 'flex',
@@ -35,7 +36,6 @@ const FullPageScroll = () => {
     // width: '100%',
     display: 'flex',
     justifyContent: 'center',
-    paddingTop: '12%',
     background: '#fafafa',
   }
 
@@ -43,9 +43,10 @@ const FullPageScroll = () => {
     <Fullpage>
 
       <FullpageNavigation />
-
       <FullPageSections>
-        <FullpageSection style={SectionStyle}>
+
+
+        <FullpageSection style={SectionStyle1}>
           <Section1></Section1>
         </FullpageSection>
 

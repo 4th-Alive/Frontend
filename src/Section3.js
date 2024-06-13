@@ -37,7 +37,7 @@ const Section3 = () => {
       <div className="Section3-Top_SubTitle">
         <div className="Section3-Text">
           <div className="Section3-MainText">
-            <span>부모와 자녀가 함께 성장하는 <strong>공간</strong></span><br></br>
+            <span>부모님과 자녀가 함께 성장하는 <strong>공간</strong></span><br></br>
           </div>
           <div className="Section3-SubText">
             <span>일기장으로 가족의 일상을 공유하고, 더 가까워지는 시간을 가져보세요</span>
