@@ -39,11 +39,13 @@
 }
 
 .Section4-TopText {
-  font-size: 35pt;
-  font-weight: 500;
+  font-family: 'NotoSansKR';
+  font-size: 37pt;
+  font-weight: 400;
 }
 
 .Section4-SubText {
+  font-family: 'NotoSansKR';
   text-align: center;
   font-size: 22pt;
   margin-top: 4%;
@@ -51,6 +53,7 @@
 }
 
 .Section4-Img {
+  font-family: 'NotoSansKR';
   display: flex;
   justify-content: center;
   margin-top: 7%;
